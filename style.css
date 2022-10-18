@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+
+.example {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
 }
 
 img {
